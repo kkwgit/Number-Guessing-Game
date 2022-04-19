@@ -74,7 +74,7 @@ function reset(){
     chances = 5
     chanceArea.textContent = `남은기회:${chances}번`
     playButton.disabled = false;
-    userValueList = [];
+    history = [];
 }
 pickRandomNum();
 
