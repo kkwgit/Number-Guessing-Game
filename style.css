@@ -25,6 +25,7 @@ input{
     text-align: center;
     border: none;
     margin: 20px;
+    font-size: 2vw;
 }
 
 .container{
@@ -53,7 +54,7 @@ font-family: 'Nanum Pen Script', cursive;
     border: none;
 }
 .btn-go:hover{
-    transform: scale(1.07);
+    transform: scale(1.3);
 }
     
 
@@ -63,13 +64,14 @@ font-family: 'Nanum Pen Script', cursive;
     border: none;
 }
 .btn-reset:hover{
-    transform: scale(1.07);
+    transform: scale(1.3);
 }
 
 .button-style{
     height: 30px;
-     width: 50px;
+     width: 60px;
      margin: 10px;
+     font-size: 25px;
      
 }
 
@@ -78,6 +80,7 @@ font-family: 'Nanum Pen Script', cursive;
         font-size: 5vw;
         max-width: 500px;
         margin-right: 0px;
+        font-size: 8vw;
     }
     .main-img {
         width: 60vw;
