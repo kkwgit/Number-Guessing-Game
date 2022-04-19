@@ -62,6 +62,7 @@ function play(){
    if(gameOver == true){
        playButton.disabled = true; 
        chanceArea.textContent = "실패!!!!!!!!!!"
+       resultImg.src="/IMG/FAIR.gif"
    }
    if(resultArea.textContent == "맞추셨습니다!!!"){
     chanceArea.textContent = "게임종료"
