@@ -73,6 +73,7 @@ function reset(){
     resultArea.textContent = "결과값이 여기에 나옵니다!"
     chances = 5
     chanceArea.textContent = `남은기회:${chances}번`
+    resultImg.src="/IMG/오징어게임.gif"
     playButton.disabled = false;
     gameOver = false;
     history = [];
